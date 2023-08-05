@@ -1,0 +1,15 @@
+# Exclude database file
+db.sqlite3
+
+# Exclude Python virtual environment
+myenv/
+
+# Exclude other unnecessary files and directories
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+*.egg-info/
+dist/
+build/
