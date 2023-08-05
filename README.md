@@ -1,7 +1,3 @@
-# ToDoApp-Django
- 📋 A beginner friendly Todo app using Django, where you can create, update, and manage your daily tasks with ease. Stay organized and boost your productivity!
-
-
 **Project Documentation: ToDo App**
 
 This documentation provides an overview of the ToDo app, a simple task management application developed using Django, Python's web framework. The app allows users to create, update, and delete tasks, as well as mark tasks as completed. It includes user authentication, allowing each user to manage their own tasks securely.
@@ -17,14 +13,14 @@ This documentation provides an overview of the ToDo app, a simple task managemen
 
 ### Introduction
 
-The ToDo app is designed to help individuals keep track of their tasks and manage their daily activities efficiently. By providing a clean and straightforward interface, users can focus on their tasks without any distractions.
+This is one of my first projects in Django - a straightforward and minimalistic ToDo app! This app empowers users to track and manage their tasks efficiently, offering a clean interface that keeps distractions at bay. Stay organized and boost productivity with ease! 📝✨
 
 ### Features
 
 - User Authentication: Users can sign up and log in to their personalized accounts, ensuring privacy and security for their tasks.
-- Task Creation: Users can add new tasks with titles, descriptions, and deadlines.
+- Task Creation: Users can add new tasks with titles, descriptions, and completion status.
 - Task List: The app displays a list of all tasks for the logged-in user, allowing easy access and management.
-- Task Detail View: Users can view individual task details, including the title, description, creation date, and completion status.
+- Task Detail View: Users can view individual task details, including the title, description and completion status.
 - Task Update: Users can edit task details, such as title, description, and completion status.
 - Task Deletion: Users can delete tasks they no longer need.
 - Task Search: The app includes a search feature, allowing users to find specific tasks quickly.
