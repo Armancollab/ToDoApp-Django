@@ -61,7 +61,7 @@ pip install -r requirements.txt
 
 > **Note:** The `requirements.txt` file includes all the necessary dependencies for the project. Make sure to have them installed in your virtual environment.
 
-**_Important: Generate Your Own Secret Key
+**_Important: Generate Your Own Secret Key**
 For security reasons, we have used environment variables to store sensitive information. One such variable is DJANGO_SECRET_KEY, which is crucial for Django's security.
 
 To generate your own secret key, open a Python shell and run the following code:
