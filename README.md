@@ -15,6 +15,8 @@ This documentation provides an overview of the ToDo app, a simple task managemen
 
 This is one of my first projects in Django - a straightforward and minimalistic ToDo app! This app empowers users to track and manage their tasks efficiently, offering a clean interface that keeps distractions at bay. Stay organized and boost productivity with ease! 📝✨
 
+> **Note:** This is a beginner-friendly project and may not include all advanced features. It is meant for educational purposes and to provide a foundation for learning Django.
+
 ### Features
 
 - User Authentication: Users can sign up and log in to their personalized accounts, ensuring privacy and security for their tasks.
@@ -57,6 +59,21 @@ Install the required dependencies:
 pip install -r requirements.txt
 ```
 
+> **Note:** The `requirements.txt` file includes all the necessary dependencies for the project. Make sure to have them installed in your virtual environment.
+
+*** Important: Generate Your Own Secret Key
+For security reasons, we have used environment variables to store sensitive information. One such variable is DJANGO_SECRET_KEY, which is crucial for Django's security.
+
+To generate your own secret key, open a Python shell and run the following code:
+
+python
+Copy code
+import secrets
+
+new_secret_key = secrets.token_hex(32)
+print(new_secret_key)
+Copy the generated key and set it as an environment variable (DJANGO_SECRET_KEY) in your system. Remember to keep your secret key private and avoid sharing it publicly. ***
+
 ### Usage
 
 1. Before running the application, create and apply the initial database migrations:
@@ -93,7 +110,3 @@ We welcome contributions to the ToDo app! If you have any suggestions, bug fixes
 ### License
 
 The ToDo app is open-source software released under the [MIT License](https://opensource.org/licenses/MIT). You are free to use, modify, and distribute the code for personal and commercial purposes.
-
----
-
-We hope you find the ToDo app helpful for managing your tasks efficiently. If you encounter any issues or have questions, feel free to report them on the GitHub repository. Happy tasking!
