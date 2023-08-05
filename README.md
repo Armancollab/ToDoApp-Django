@@ -1,4 +1,4 @@
-**Project Documentation: ToDo App**
+## Project Documentation: ToDo App ##
 
 This documentation provides an overview of the ToDo app, a simple task management application developed using Django, Python's web framework. The app allows users to create, update, and delete tasks, as well as mark tasks as completed. It includes user authentication, allowing each user to manage their own tasks securely.
 
