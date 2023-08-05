@@ -72,7 +72,7 @@ import secrets
 new_secret_key = secrets.token_hex(32)
 print(new_secret_key)
 ```
-**_Copy the generated key and set it as an environment variable (DJANGO_SECRET_KEY) in your system. Remember to keep your secret key private and avoid sharing it publicly.**
+**_Copy the generated key and set it in this format (SECRET_KEY = 'YOUR_SECRET_KEY'). Remember to keep your secret key private and avoid sharing it publicly._**
 
 ### Usage
 
