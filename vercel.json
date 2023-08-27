@@ -1,9 +1,13 @@
 {
   "version": 2,
   "builds": [
-    { "src": "manage.py", "use": "@vercel/python" }
+    { "src": "main/**", "use": "@vercel/python" }
   ],
   "routes": [
-    { "src": "/(.*)", "dest": "manage.py" }
-  ]
+    { "src": "/static/(.*)", "dest": "/static/$1" },
+    { "src": "/(.*)", "dest": "main/$1" }
+  ],
+  "env": {
+    "DJANGO_SETTINGS_MODULE": "main.settings"
+  }
 }
